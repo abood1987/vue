@@ -57,7 +57,7 @@ new Vue({
 
 ## style
 
-````htm
+```htm
 :class="{red: attachRed}" // red = class & attachRed = boolian prop & color = class
 :class="[color, {red: attachRed}]"
 ```
@@ -84,3 +84,15 @@ data: {
 ```
 
 ##  Conditionals and Rendering Lists 
+```html
+<template v-if="isTrue"></template>
+<template v-else></template>
+
+<template v-show></template>
+
+<template v-for="(item, index) in object" :key="index"></template>
+```
+
+* v-if: تحذف العنصر من الدوم
+* v-show: إخفاء العنصر
+
