@@ -17,13 +17,11 @@ new Vue({ // Vue instance
 });
 ```
 
-´´´html
-<pre>
-	<div id="app">
-	  <h1 v-once>{{ title }}</h1>
-	  <p>{{ sayHello() }} - <a v-bind:href="link">Google</a></p>
-	  <hr>
-	  <p v-html="finishedLink"></p>
-	</div>
-</pre>
+´´´javascript
+<div id="app">
+  <h1 v-once>{{ title }}</h1>
+  <p>{{ sayHello() }} - <a v-bind:href="link">Google</a></p>
+  <hr>
+  <p v-html="finishedLink"></p>
+</div>
 ´´´
