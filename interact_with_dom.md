@@ -25,3 +25,5 @@ new Vue({ // Vue instance
   <p v-html="finishedLink"></p>
 </div>
 ```
+* v-one: عند إضافتها يأخذ العنصر القيمةالمبدأية ولايقوم بتحديثها
+* v-bind: ربط خاصية html مع متغير (data, method, computed)
